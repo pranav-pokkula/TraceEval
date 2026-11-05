@@ -1,0 +1,80 @@
+{
+  "environment": "local-or-ci-fixture-only",
+  "node": "v22.22.0",
+  "lockfileSha256": "59618df2b2b81d7fe5e3caed781b08710b598641a1170142c2d2d96d798d9142",
+  "steps": [
+    {
+      "name": "generate",
+      "command": [
+        "npm",
+        "run",
+        "generate",
+        "--",
+        "--check"
+      ],
+      "startedAt": "2026-11-05T17:58:15.156Z",
+      "endedAt": "2026-11-05T17:58:15.510Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/generate.log"
+    },
+    {
+      "name": "unit-integration",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "startedAt": "2026-11-05T17:58:15.511Z",
+      "endedAt": "2026-11-05T17:58:16.309Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/unit-integration.log"
+    },
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-11-05T17:58:16.310Z",
+      "endedAt": "2026-11-05T17:58:18.936Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/build.log"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "startedAt": "2026-11-05T17:58:18.937Z",
+      "endedAt": "2026-11-05T17:58:19.337Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/typecheck.log"
+    },
+    {
+      "name": "fixture-evaluation",
+      "command": [
+        "npm",
+        "run",
+        "evaluate"
+      ],
+      "startedAt": "2026-11-05T17:58:19.337Z",
+      "endedAt": "2026-11-05T17:58:19.783Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/fixture-evaluation.log"
+    },
+    {
+      "name": "browser",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e"
+      ],
+      "startedAt": "2026-11-05T17:58:19.784Z",
+      "endedAt": "2026-11-05T17:58:24.749Z",
+      "exitCode": 0,
+      "log": "artifacts/receipts/2026-11-05T17-58-15-155Z/browser.log"
+    }
+  ]
+}

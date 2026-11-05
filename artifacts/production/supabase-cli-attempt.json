@@ -1,0 +1,10 @@
+{
+  "organizationId": "btlsovfmukmukguofcny",
+  "name": "TraceEval",
+  "region": "us-east-1",
+  "success": false,
+  "category": "PASSWORD_INPUT_NOT_SUPPORTED",
+  "detail": "Project creation rejected; no provider payload printed.",
+  "exitCode": 1,
+  "recordedAt": "2026-11-05T23:16:46.050Z"
+}

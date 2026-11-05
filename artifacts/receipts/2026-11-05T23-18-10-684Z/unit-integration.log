@@ -1,0 +1,16 @@
+
+> traceeval@1.0.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /Users/prapokks/Documents/TraceEval
+
+
+ Test Files  5 passed (5)
+      Tests  61 passed (61)
+   Start at  18:18:11
+   Duration  376ms (import 55%, tests 25%, transform 18%, worker 2%)
+

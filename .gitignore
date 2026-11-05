@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.vercel/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+supabase/.temp/
+supabase/.branches/
+artifacts/receipts/**/browser-failures/
+artifacts/private/
+.release-private/

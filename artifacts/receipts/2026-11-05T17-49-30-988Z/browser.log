@@ -1,0 +1,94 @@
+
+> traceeval@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:43924) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:43925) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/workspace.spec.ts:3:5 › full fixture journey: evaluate, inspect, review, export, reload, compare (30.2s)
+(node:43936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/workspace.spec.ts:35:5 › catalog search, filters, target inspection, and methodology disclosure (533ms)
+  ✓  3 [chromium] › tests/e2e/workspace.spec.ts:43:5 › mobile navigation and dialog work without horizontal overflow (322ms)
+  ✘  4 [chromium] › tests/e2e/workspace.spec.ts:52:5 › disabled live adapter and API errors are explicit (5.3s)
+
+
+  1) [chromium] › tests/e2e/workspace.spec.ts:3:5 › full fixture journey: evaluate, inspect, review, export, reload, compare 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Adapter', { exact: true })
+
+
+      18 |   await page.getByRole("link", { name: "Overview", exact: true }).click();
+      19 |   await page.getByRole("button", { name: "New evaluation" }).first().click();
+    > 20 |   await page.getByLabel("Run name").fill("Injected faults · full suite"); await page.getByLabel("Adapter", { exact: true }).selectOption("perturbed");
+         |                                                                                                                             ^
+      21 |   await page.getByRole("button", { name: "Run evaluation", exact: true }).click();
+      22 |   await expect(page.getByRole("heading", { name: "Injected faults · full suite" })).toBeVisible();
+      23 |   await expect(page.getByText("document is not in this case's evidence.", { exact: false })).toBeVisible();
+        at /Users/prapokks/Documents/TraceEval/tests/e2e/workspace.spec.ts:20:125
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/workspace-full-fixture-jou-51ef4-eview-export-reload-compare-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/workspace-full-fixture-jou-51ef4-eview-export-reload-compare-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workspace-full-fixture-jou-51ef4-eview-export-reload-compare-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workspace-full-fixture-jou-51ef4-eview-export-reload-compare-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/workspace.spec.ts:52:5 › disabled live adapter and API errors are explicit 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator:  getByRole('option', { name: 'Live model · not configured' })
+    Expected: disabled
+    Received: enabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('option', { name: 'Live model · not configured' }) with timeout 5000ms
+      - waiting for getByRole('option', { name: 'Live model · not configured' })
+        14 × locator resolved to <option disabled value="live">Live model · not configured</option>
+           - unexpected value "enabled"
+
+
+      51 | });
+      52 | test("disabled live adapter and API errors are explicit", async ({ page, request }) => {
+    > 53 |   await page.goto("/"); await page.getByRole("button", { name: "New evaluation" }).first().click(); await expect(page.getByRole("option", { name: "Live model · not configured" })).toBeDisabled();
+         |                                                                                                                                                                                     ^
+      54 |   const response = await request.post("/api/evaluate", { data: { name: "Bad ID", adapter: "fixture", caseIds: ["case-9999"] } }); expect(response.status()).toBe(400);
+      55 |   const live = await request.post("/api/evaluate", { data: { name: "Live disabled", adapter: "live", caseIds: ["case-0001"] } }); expect(live.status()).toBe(503);
+      56 | });
+        at /Users/prapokks/Documents/TraceEval/tests/e2e/workspace.spec.ts:53:181
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/workspace-disabled-live-adapter-and-API-errors-are-explicit-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/workspace-disabled-live-adapter-and-API-errors-are-explicit-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workspace-disabled-live-adapter-and-API-errors-are-explicit-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workspace-disabled-live-adapter-and-API-errors-are-explicit-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/e2e/workspace.spec.ts:3:5 › full fixture journey: evaluate, inspect, review, export, reload, compare 
+    [chromium] › tests/e2e/workspace.spec.ts:52:5 › disabled live adapter and API errors are explicit 
+  2 passed (38.4s)

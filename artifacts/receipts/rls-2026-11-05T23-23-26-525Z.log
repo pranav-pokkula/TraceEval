@@ -1,0 +1,7 @@
+PASS: owner can insert and read a run and human review.
+PASS: another user cannot read, delete, or edit the owner records.
+PASS: forged owner insert and cross-owner review reference are rejected.
+PASS: review case membership is enforced in PostgreSQL.
+PASS: live minute quota is enforced and quota rows are inaccessible.
+PASS: anonymous access to runs, reviews, and live quota is denied.
+PASS: all RLS checks completed; test data rolled back.

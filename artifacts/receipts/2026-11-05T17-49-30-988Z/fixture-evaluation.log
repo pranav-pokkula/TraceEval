@@ -1,0 +1,6 @@
+
+> traceeval@1.0.0 evaluate
+> tsx scripts/evaluate.ts
+
+{"adapter":"fixture","total":500,"errors":0,"schema":500,"citationsEligible":500,"citations":500,"passed":500,"targetMatches":500,"runId":"502d0e4b-f71c-4732-921a-ff1caffb47fe","createdAt":"2026-11-05T17:49:39.850Z","datasetHash":"b1fb31c7d38de0cdc04e48f52d79f387a756e19edb5a5e05d1e649e58c387855","evaluatorVersion":"deterministic-v1","factualSupport":"Not human-reviewed. No model benchmark claim."}
+{"adapter":"perturbed","total":500,"errors":0,"schema":400,"citationsEligible":400,"citations":200,"passed":100,"targetMatches":300,"runId":"02c5b622-0fca-4ca3-8f4f-9f7f36ee4e49","createdAt":"2026-11-05T17:49:39.860Z","datasetHash":"b1fb31c7d38de0cdc04e48f52d79f387a756e19edb5a5e05d1e649e58c387855","evaluatorVersion":"deterministic-v1","factualSupport":"Not human-reviewed. No model benchmark claim."}

@@ -1,0 +1,9 @@
+{
+  "organizationId": "btlsovfmukmukguofcny",
+  "name": "TraceEval",
+  "region": "us-east-1",
+  "success": false,
+  "statusCode": 400,
+  "detail": "The following organization members have reached their maximum limits for the number of active free projects within organizations where they are an administrator or owner: pranav-pokkula (2 project limit). To continue, these users will need to either delete, pause or upgrade one or more of these projects.",
+  "recordedAt": "2026-11-05T23:22:20.195Z"
+}

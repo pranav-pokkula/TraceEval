@@ -1,0 +1,17 @@
+
+> traceeval@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:44582) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:44583) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/workspace.spec.ts:3:5 › full fixture journey: evaluate, inspect, review, export, reload, compare (1.8s)
+  ✓  2 [chromium] › tests/e2e/workspace.spec.ts:35:5 › catalog search, filters, target inspection, and methodology disclosure (457ms)
+  ✓  3 [chromium] › tests/e2e/workspace.spec.ts:43:5 › mobile navigation and dialog work without horizontal overflow (338ms)
+  ✓  4 [chromium] › tests/e2e/workspace.spec.ts:52:5 › disabled live adapter and API errors are explicit (302ms)
+
+  4 passed (4.5s)
