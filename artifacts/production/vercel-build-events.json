@@ -1,0 +1,336 @@
+{
+  "result": {
+    "events": [
+      {
+        "created": 1793921674637,
+        "date": 1793921674637,
+        "type": "stdout",
+        "text": "Build cache uploaded: 4.523s",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921670114,
+        "date": 1793921670114,
+        "type": "stdout",
+        "text": "Uploading build cache [225.79 MB]",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921670113,
+        "date": 1793921670113,
+        "type": "stdout",
+        "text": "Created build cache: 13s",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921656826,
+        "date": 1793921656826,
+        "type": "stdout",
+        "text": "Creating build cache...",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921656822,
+        "date": 1793921656822,
+        "type": "stdout",
+        "text": "Deployment completed",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653558,
+        "date": 1793921653558,
+        "type": "stdout",
+        "text": "Deploying outputs...",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653520,
+        "date": 1793921653520,
+        "type": "stderr",
+        "text": "Build Completed in /vercel/output [25s]",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653330,
+        "date": 1793921653330,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653330,
+        "date": 1793921653330,
+        "type": "stdout",
+        "text": "ƒ  (Dynamic)  server-rendered on demand",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653330,
+        "date": 1793921653330,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "└ ƒ /settings",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /runs/[id]",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /runs",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /methodology",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /evidence",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /dataset",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /compare",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /api/runs",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /api/reviews",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /api/evaluate",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "├ ƒ /_not-found",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "┌ ƒ /",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653329,
+        "date": 1793921653329,
+        "type": "stdout",
+        "text": "Route (app)",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653326,
+        "date": 1793921653326,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653232,
+        "date": 1793921653232,
+        "type": "stdout",
+        "text": "  Running onBuildComplete from Vercel",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653150,
+        "date": 1793921653150,
+        "type": "stdout",
+        "text": "  Finalizing page optimization ...",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653144,
+        "date": 1793921653144,
+        "type": "stdout",
+        "text": "✓ Generating static pages using 1 worker (4/4) in 119ms",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653105,
+        "date": 1793921653105,
+        "type": "stdout",
+        "text": "  Generating static pages using 1 worker (3/4) \r",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1793921653104,
+        "date": 1793921653104,
+        "type": "stdout",
+        "text": "  Generating static pages using 1 worker (2/4) \r",
+        "info": {
+          "type": "build",
+          "name": "bld_1vekvwqu7",
+          "entrypoint": "."
+        }
+      }
+    ]
+  }
+}

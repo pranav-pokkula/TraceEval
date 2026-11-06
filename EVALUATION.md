@@ -79,7 +79,7 @@ The migration and RLS checks also **passed on actual disposable PostgreSQL 17**,
 
 `npm run verify` stores command stdout/stderr, exit code, start/end timestamps, Node version, and lockfile hash. GitHub Actions retains artifacts with its actual run ID when it executes. There is no claimed GitHub CI execution or Vercel deployment in this local delivery.
 
-Not verified against external systems: hosted Supabase authentication/persistence, a live paid model endpoint, production deployment, GitHub Actions execution, and browser engines other than Chromium. The database quota test covers sequential enforcement; no concurrent load/throughput benchmark was performed.
+At the historical local checkpoint, hosted Supabase, paid inference, deployment, and CI had not run. The production revision subsequently verified GitHub Actions and the Vercel public demo, with receipts in `docs/PRODUCTION_VERIFICATION.md`. Hosted Supabase, paid inference, and browser engines other than Chromium remain unverified. The database quota test covers sequential enforcement; no concurrent load/throughput benchmark was performed.
 
 ## Reproduce
 

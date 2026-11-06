@@ -1,2 +1,3 @@
 # Preserve raw verification stdout, including progress CRs and trailing whitespace.
 artifacts/receipts/** -whitespace
+artifacts/production/*.log -whitespace

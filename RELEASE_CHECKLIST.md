@@ -11,7 +11,11 @@
 - [x] Dedicated Supabase organization created.
 - [ ] Supabase project provisioned — blocked by the account's two-active-free-project limit; user elected to leave blocked.
 - [ ] Hosted Supabase authentication/persistence/isolation verified — unavailable until a dedicated project exists.
-- [ ] GitHub Actions and production Vercel browser results confirmed — see the production verification report for current evidence.
+- [x] GitHub Actions actually passed: run `42129996388`, both jobs successful.
+- [x] Exact application commit deployed to Vercel and public URL verified: https://traceeval.vercel.app.
+- [x] Five production Chromium workflows passed, including 10/500-case execution, review/export/comparison, protected API denial, and mobile layout.
+- [x] Real production screenshots and CI/deployment receipts captured and published.
+- [x] Git repository connected to Vercel for automatic deployments.
 
 Historical implementation and local verification checklist follows. Hosted gates are not marked complete merely because code exists.
 
@@ -44,12 +48,12 @@ The PostgreSQL test uses a minimal Supabase auth contract. It does not certify t
 
 ## Before a hosted fixture release
 
-- [ ] Commit reviewed source and lockfile to the intended repository.
-- [ ] Run both GitHub Actions jobs on that commit; retain actual artifacts.
-- [ ] Verify Vercel team, project, environment, and deployed commit.
-- [ ] Configure Node 22.x, default Next.js build settings, and fixture environment.
-- [ ] Smoke-test the hosted dashboard, run/inspection/review/export/reload flow, and mobile layout.
-- [ ] Record actual deployment URL and status. No deployment URL exists from local verification alone.
+- [x] Commit reviewed source and lockfile to the intended repository.
+- [x] Run both GitHub Actions jobs on the application commit; retain actual artifacts.
+- [x] Verify Vercel team, project, environment, and deployed application commit.
+- [x] Configure Node 22.x, default Next.js build settings, and fixture environment.
+- [x] Smoke-test the hosted dashboard, run/inspection/review/export/reload flow, and mobile layout.
+- [x] Record actual deployment URL and status in the production verification report.
 
 ## Before enabling Supabase or live inference
 

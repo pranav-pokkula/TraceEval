@@ -1,0 +1,923 @@
+fixture-and-browser	Set up job	﻿2026-11-05T23:31:26.5252196Z Current runner version: '2.338.2'
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5271538Z ##[group]Runner Image Provisioner
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5272373Z Hosted Compute Agent
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5272739Z Version: 20261021.618
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5273159Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5273678Z Build Date: 2026-10-21T00:45:21Z
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5274085Z Worker ID: {64d48a78-de62-4a8c-942d-f437fafb7ee9}
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5274556Z Region: centralus
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5274901Z Cloud: Azure
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5275259Z ##[endgroup]
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5276346Z ##[group]Operating System
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5276720Z Ubuntu
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5277096Z 26.04.1
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5277422Z LTS
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5277735Z ##[endgroup]
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5278176Z ##[group]Runner Image
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5278550Z Image: ubuntu-26.04
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5278940Z Version: 20261025.179.1
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5279679Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261025.179/images/ubuntu/Ubuntu2604-Readme.md
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5281064Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261025.179
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5281784Z ##[endgroup]
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5282552Z ##[group]GITHUB_TOKEN Permissions
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5283989Z Contents: read
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5284434Z Metadata: read
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5284781Z ##[endgroup]
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5286200Z Secret source: Actions
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5286846Z Cache mode: write
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5287408Z Prepare workflow directory
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5544469Z Prepare all required actions
+fixture-and-browser	Set up job	2026-11-05T23:31:26.5583662Z Getting action download info
+fixture-and-browser	Set up job	2026-11-05T23:31:26.8229078Z Download action repository 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+fixture-and-browser	Set up job	2026-11-05T23:31:26.9176862Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+fixture-and-browser	Set up job	2026-11-05T23:31:27.0018772Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+fixture-and-browser	Set up job	2026-11-05T23:31:27.1942956Z Complete job name: fixture-and-browser
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	﻿2026-11-05T23:31:27.2506911Z ##[group]Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2507472Z with:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2507733Z   persist-credentials: false
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2508041Z   repository: pranav-pokkula/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2510287Z   token: ***
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2510539Z   ssh-strict: true
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2510789Z   ssh-user: git
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2511035Z   clean: true
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2511292Z   sparse-checkout-cone-mode: true
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2511590Z   fetch-depth: 1
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2511965Z   fetch-tags: false
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2512216Z   show-progress: true
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2512472Z   lfs: false
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2512708Z   submodules: false
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2512965Z   set-safe-directory: true
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2513324Z env:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2513564Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2513844Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2514116Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.2514394Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4501048Z Syncing repository: pranav-pokkula/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4502830Z ##[group]Getting Git version info
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4503275Z Working directory is '/home/runner/work/TraceEval/TraceEval'
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4503905Z [command]/usr/bin/git version
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4504202Z git version 2.56.0
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4521432Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4527283Z Temporarily overriding HOME='/home/runner/work/_temp/2f70377d-0614-4e2e-aa68-bf84436173ad' before making global git config changes
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4528524Z Adding repository directory to the temporary git global config as a safe directory
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4531170Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/TraceEval/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4585225Z Deleting the contents of '/home/runner/work/TraceEval/TraceEval'
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4587800Z ##[group]Initializing the repository
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4591095Z [command]/usr/bin/git init /home/runner/work/TraceEval/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4707377Z hint: Using 'master' as the name for the initial branch. This default branch name
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4708210Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4708942Z hint: to use in all of your new repositories, which will suppress this warning,
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4709370Z hint: call:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4709613Z hint:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4709951Z hint: 	git config --global init.defaultBranch <name>
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4710318Z hint:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4710677Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4711220Z hint: 'development'. The just-created branch can be renamed via this command:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4711819Z hint:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4712115Z hint: 	git branch -m <name>
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4712464Z hint:
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4712833Z hint: Disable this message with "git config set advice.defaultBranchName false"
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4720944Z Initialized empty Git repository in /home/runner/work/TraceEval/TraceEval/.git/
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4733567Z [command]/usr/bin/git remote add origin https://github.com/pranav-pokkula/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4779697Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4780436Z ##[group]Disabling automatic garbage collection
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4783126Z [command]/usr/bin/git config --local gc.auto 0
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4813639Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4814324Z ##[group]Setting up auth
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4819436Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.4847465Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5264630Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5294446Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5540145Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5583190Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5583863Z ##[group]Fetching the repository
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.5593000Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e59d3c6fda8e81eeca372eb0dd0894068948b16d:refs/remotes/origin/main
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9828839Z From https://github.com/pranav-pokkula/TraceEval
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9829627Z  * [new ref]         e59d3c6fda8e81eeca372eb0dd0894068948b16d -> origin/main
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9833598Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9834295Z ##[group]Determining the checkout info
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9835792Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9840259Z [command]/usr/bin/git sparse-checkout disable
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9890817Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9921554Z ##[group]Checking out the ref
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:27.9924787Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0069674Z Switched to a new branch 'main'
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0078844Z branch 'main' set up to track 'origin/main'.
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0082224Z ##[endgroup]
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0145512Z [command]/usr/bin/git log -1 --format=%H
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0184463Z e59d3c6fda8e81eeca372eb0dd0894068948b16d
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0192178Z ##[group]Removing auth
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0194876Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0223828Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0496764Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0520873Z http.https://github.com/.extraheader
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0528471Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0559742Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+fixture-and-browser	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:28.0806661Z ##[endgroup]
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	﻿2026-11-05T23:31:28.1089542Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1090739Z with:
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1091363Z   node-version: 22
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1092198Z   cache: npm
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1092859Z   always-auth: false
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1093606Z   check-latest: false
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1169076Z   token: ***
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1170387Z env:
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1171247Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1172524Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1173609Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.1174681Z ##[endgroup]
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.2268440Z (node:2198) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.2271558Z (Use `node --trace-deprecation ...` to show where the warning was created)
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.2273503Z Found in cache @ /opt/hostedtoolcache/node/22.23.4/x64
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.2283495Z ##[group]Environment details
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.5340220Z node: v22.23.4
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.5340804Z npm: 10.9.9
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.5340988Z yarn: 1.22.22
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.5342103Z ##[endgroup]
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.5354120Z [command]/opt/hostedtoolcache/node/22.23.4/x64/bin/npm config get cache
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.6171269Z /home/runner/.npm
+fixture-and-browser	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:28.7767230Z npm cache is not found
+fixture-and-browser	Run npm ci	﻿2026-11-05T23:31:28.7912633Z ##[group]Run npm ci
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7912926Z ^[[36;1mnpm ci^[[0m
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7947463Z shell: /usr/bin/bash -e {0}
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7947669Z env:
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7947818Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7947996Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7948164Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Run npm ci	2026-11-05T23:31:28.7948343Z ##[endgroup]
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9764743Z 
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9772575Z added 117 packages, and audited 124 packages in 6s
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9773122Z 
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9773365Z 26 packages are looking for funding
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9773669Z   run `npm fund` for details
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9773851Z 
+fixture-and-browser	Run npm ci	2026-11-05T23:31:34.9773991Z found 0 vulnerabilities
+fixture-and-browser	Run npx playwright install --with-deps chromium	﻿2026-11-05T23:31:35.0090610Z ##[group]Run npx playwright install --with-deps chromium
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0090933Z ^[[36;1mnpx playwright install --with-deps chromium^[[0m
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0121566Z shell: /usr/bin/bash -e {0}
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0121894Z env:
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0122024Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0122189Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0122343Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.0122497Z ##[endgroup]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.5767189Z Installing dependencies...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.5858734Z Switching to root user to install dependencies...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.6542817Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.7004503Z Get:6 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.7230156Z Get:7 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main amd64 Packages [149 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.7408548Z Get:8 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [135 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8073344Z Hit:2 http://azure.archive.ubuntu.com/ubuntu resolute InRelease
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8103530Z Get:3 http://azure.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8122015Z Get:4 http://azure.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8136012Z Get:5 http://azure.archive.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8255558Z Get:9 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 Packages [809 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8303280Z Get:10 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [187 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8314787Z Get:11 http://azure.archive.ubuntu.com/ubuntu resolute-updates/universe amd64v3 Packages [377 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8333143Z Get:12 http://azure.archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [118 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8334099Z Get:13 http://azure.archive.ubuntu.com/ubuntu resolute-updates/restricted amd64v3 Packages [543 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8348467Z Get:14 http://azure.archive.ubuntu.com/ubuntu resolute-updates/restricted Translation-en [112 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8425691Z Get:15 http://azure.archive.ubuntu.com/ubuntu resolute-security/main amd64v3 Packages [657 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8452027Z Get:16 http://azure.archive.ubuntu.com/ubuntu resolute-security/main Translation-en [148 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8471931Z Get:17 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe amd64v3 Packages [208 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8479032Z Get:18 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe Translation-en [68.7 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8928594Z Get:19 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted amd64v3 Packages [529 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:35.8948432Z Get:20 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted Translation-en [108 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.0833226Z Fetched 4563 kB in 0s (11.7 MB/s)
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.6445134Z Reading package lists...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.6693940Z Reading package lists...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8371489Z Building dependency tree...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8378546Z Reading state information...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8766251Z libasound2t64 is already the newest version (1.2.15.3-1ubuntu1.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8766612Z libasound2t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8766969Z libatk-bridge2.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8767242Z libatk-bridge2.0-0t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8767502Z libatk1.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8767738Z libatk1.0-0t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8767989Z libatspi2.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8768230Z libatspi2.0-0t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8768478Z libcairo2 is already the newest version (1.18.4-3).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8768717Z libcairo2 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8769915Z libcups2t64 is already the newest version (2.4.16-1ubuntu1.3).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8770181Z libcups2t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8770446Z libdbus-1-3 is already the newest version (1.16.2-2ubuntu4).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8770672Z libdbus-1-3 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8770880Z libdrm2 is already the newest version (2.4.131-1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8771084Z libdrm2 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8771306Z libgbm1 is already the newest version (26.0.8-1ubuntu0.3).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8771526Z libgbm1 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8772074Z libglib2.0-0t64 is already the newest version (2.88.0-1ubuntu0.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8772444Z libglib2.0-0t64 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8772832Z libnspr4 is already the newest version (2:4.38.2-1ubuntu1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8773167Z libnspr4 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8773458Z libnss3 is already the newest version (2:3.120-1ubuntu2.2).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8773680Z libnss3 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8773902Z libpango-1.0-0 is already the newest version (1.57.0-1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8774161Z libpango-1.0-0 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8774603Z libx11-6 is already the newest version (2:1.8.13-1ubuntu0.1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8774825Z libx11-6 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8775046Z libxcb1 is already the newest version (1.17.0-2ubuntu1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8775256Z libxcb1 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8775519Z libxcomposite1 is already the newest version (1:0.4.6-1build1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8775763Z libxcomposite1 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8775993Z libxdamage1 is already the newest version (1:1.1.7-1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8776204Z libxdamage1 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8776431Z libxext6 is already the newest version (2:1.3.4-1build3).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8776652Z libxext6 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8776885Z libxfixes3 is already the newest version (1:6.0.0-2build2).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8777117Z libxfixes3 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8777337Z libxkbcommon0 is already the newest version (1.13.1-1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8777557Z libxkbcommon0 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8777793Z libxrandr2 is already the newest version (2:1.5.4-1build1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8778013Z libxrandr2 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8778246Z xvfb is already the newest version (2:21.1.22-1ubuntu1.3).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8778530Z fonts-noto-color-emoji is already the newest version (2.051-1build1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8778831Z libfontconfig1 is already the newest version (2.17.1-3ubuntu1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8779070Z libfontconfig1 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8779326Z libfreetype6 is already the newest version (2.14.2+dfsg-1ubuntu0.2).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8779575Z libfreetype6 set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8779827Z fonts-liberation is already the newest version (1:2.1.5-3build1).
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.8780080Z fonts-liberation set to manually installed.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:38.9228217Z Solving dependencies...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0008683Z The following additional packages will be installed:
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0009066Z   xfonts-encodings xfonts-utils
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0016847Z Recommended packages:
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0017094Z   fonts-ipafont-mincho fonts-tlwg-loma
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0198450Z The following NEW packages will be installed:
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0198861Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0206101Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0206454Z   xfonts-utils
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0403959Z 0 upgraded, 9 newly installed, 0 to remove and 40 not upgraded.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0404300Z Need to get 21.9 MB of archives.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0404557Z After this operation, 80.2 MB of additional disk space will be used.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0404851Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.0975986Z Get:2 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-ipafont-gothic all 00303-23ubuntu1 [3703 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.1737275Z Get:3 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 fonts-freefont-ttf all 20211204+svn4273-4build1 [5656 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.2663257Z Get:4 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-tlwg-loma-otf all 1:0.7.3-1build1 [106 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.2948475Z Get:5 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-unifont all 1:16.0.04-1build1 [3169 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.3540181Z Get:6 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-wqy-zenhei all 0.9.45-8build1 [7863 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.4596249Z Get:7 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-encodings all 1:1.0.5-0ubuntu3 [576 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.4936486Z Get:8 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-utils amd64 1:7.7+7build1 [97.3 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.5256104Z Get:9 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-cyrillic all 1:1.0.5+nmu1build1 [384 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.5591219Z Get:10 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-scalable all 1:1.0.3-1.3build1 [304 kB]
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8202610Z Fetched 21.9 MB in 1s (41.1 MB/s)
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8398518Z Selecting previously unselected package fonts-ipafont-gothic.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8622107Z (Reading database ... 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8622657Z (Reading database ... 5%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8623019Z (Reading database ... 10%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8623300Z (Reading database ... 15%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8623586Z (Reading database ... 20%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624030Z (Reading database ... 25%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624210Z (Reading database ... 30%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624379Z (Reading database ... 35%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624545Z (Reading database ... 40%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624711Z (Reading database ... 45%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.8624917Z (Reading database ... 50%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:39.9633047Z (Reading database ... 55%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.1219683Z (Reading database ... 60%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.3036819Z (Reading database ... 65%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.4625583Z (Reading database ... 70%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.5599776Z (Reading database ... 75%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.7588261Z (Reading database ... 80%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:40.9612710Z (Reading database ... 85%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.1349142Z (Reading database ... 90%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.2741130Z (Reading database ... 95%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.2741533Z (Reading database ... 100%
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.2742061Z (Reading database ... 212715 files and directories currently installed.)
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.2790627Z Preparing to unpack .../0-fonts-ipafont-gothic_00303-23ubuntu1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.2884196Z Unpacking fonts-ipafont-gothic (00303-23ubuntu1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.3794224Z Selecting previously unselected package fonts-freefont-ttf.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.3903952Z Preparing to unpack .../1-fonts-freefont-ttf_20211204+svn4273-4build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.3910679Z Unpacking fonts-freefont-ttf (20211204+svn4273-4build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.4789913Z Selecting previously unselected package fonts-tlwg-loma-otf.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.4901262Z Preparing to unpack .../2-fonts-tlwg-loma-otf_1%3a0.7.3-1build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.4908286Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.5116943Z Selecting previously unselected package fonts-unifont.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.5226422Z Preparing to unpack .../3-fonts-unifont_1%3a16.0.04-1build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.5233475Z Unpacking fonts-unifont (1:16.0.04-1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.7135262Z Selecting previously unselected package fonts-wqy-zenhei.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.7244571Z Preparing to unpack .../4-fonts-wqy-zenhei_0.9.45-8build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.7430380Z Unpacking fonts-wqy-zenhei (0.9.45-8build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.8807731Z Selecting previously unselected package xfonts-encodings.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.8919108Z Preparing to unpack .../5-xfonts-encodings_1%3a1.0.5-0ubuntu3_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.8930666Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu3) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.9178446Z Selecting previously unselected package xfonts-utils.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.9289691Z Preparing to unpack .../6-xfonts-utils_1%3a7.7+7build1_amd64v3.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.9296473Z Unpacking xfonts-utils (1:7.7+7build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:41.9895878Z Selecting previously unselected package xfonts-cyrillic.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0004151Z Preparing to unpack .../7-xfonts-cyrillic_1%3a1.0.5+nmu1build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0011952Z Unpacking xfonts-cyrillic (1:1.0.5+nmu1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0298747Z Selecting previously unselected package xfonts-scalable.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0410398Z Preparing to unpack .../8-xfonts-scalable_1%3a1.0.3-1.3build1_all.deb ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0416909Z Unpacking xfonts-scalable (1:1.0.3-1.3build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0827646Z Setting up fonts-wqy-zenhei (0.9.45-8build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0954932Z Setting up fonts-freefont-ttf (20211204+svn4273-4build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0972763Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.0988742Z Setting up xfonts-encodings (1:1.0.5-0ubuntu3) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1004765Z Setting up fonts-ipafont-gothic (00303-23ubuntu1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1052922Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1066121Z Setting up fonts-unifont (1:16.0.04-1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1082163Z Setting up xfonts-utils (1:7.7+7build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1127717Z Setting up xfonts-cyrillic (1:1.0.5+nmu1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1481402Z Setting up xfonts-scalable (1:1.0.3-1.3build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1802133Z Processing triggers for man-db (2.13.1-1build1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1904389Z Not building database; man-db/auto-update is not 'true'.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.1916595Z Processing triggers for fontconfig (2.17.1-3ubuntu1) ...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7044753Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7045456Z Running kernel seems to be up-to-date.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7045717Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7045821Z Restarting services...
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7134753Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7135384Z Service restarts being deferred:
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7137463Z  systemctl restart hosted-compute-agent.service
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7137681Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7138308Z No containers need to be restarted.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7138477Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7138643Z No user sessions are running outdated binaries.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7138835Z 
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:42.7159608Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:43.7285009Z Downloading Chrome for Testing 156.0.8078.4 (playwright chromium v1248) from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-linux64.zip
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.1275079Z |                                                                                |   0% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.4024993Z |■■■■■■■■                                                                        |  10% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.4642784Z |■■■■■■■■■■■■■■■■                                                                |  20% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.5195193Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.5951098Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.6628631Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.7175014Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.7929176Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.8498715Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.9252441Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:44.9903220Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 191.1 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.0047832Z Chrome for Testing 156.0.8078.4 (playwright chromium v1248) downloaded to /home/runner/.cache/ms-playwright/chromium-1248
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.0051748Z Downloading FFmpeg (playwright ffmpeg v1013) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1013/ffmpeg-linux.zip
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.3753727Z |                                                                                |   0% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.4293710Z |■■■■■■■■                                                                        |  10% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.4518555Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.4677822Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.4776020Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.4908633Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5068768Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5143241Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5180623Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5219907Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5257151Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.2 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5721873Z FFmpeg (playwright ffmpeg v1013) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1013
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.5724361Z Downloading Chrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248) from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-headless-shell-linux64.zip
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:47.9345462Z |                                                                                |   0% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.1733599Z |■■■■■■■■                                                                        |  10% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.2065640Z |■■■■■■■■■■■■■■■■                                                                |  20% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.2400128Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.2835689Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.3224239Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.3634696Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.4006491Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.4622382Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.4989816Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:48.5388055Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 120 MiB
+fixture-and-browser	Run npx playwright install --with-deps chromium	2026-11-05T23:31:49.8898639Z Chrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1248
+fixture-and-browser	Run npm run verify	﻿2026-11-05T23:31:49.9172536Z ##[group]Run npm run verify
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9172822Z ^[[36;1mnpm run verify^[[0m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9202153Z shell: /usr/bin/bash -e {0}
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9202311Z env:
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9202629Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9202782Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9202927Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9203078Z ##[endgroup]
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:49.9999838Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.0000586Z > traceeval@1.0.0 verify
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.0000970Z > node scripts/verify.mjs
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.0001114Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.0264340Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.0265171Z Running generate: npm run generate -- --check
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.1040723Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.1041438Z > traceeval@1.0.0 generate
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.1042039Z > tsx scripts/generate.ts --check
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.1042221Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2692248Z Verified 500 synthetic target cases, 300 fictional evidence documents. Seed 20261105.
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2692664Z {
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2692838Z   "version": "synthetic-v1",
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2693119Z   "seed": 20261105,
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2693311Z   "syntheticTargetCount": 500,
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2693500Z   "fictionalDocumentCount": 300,
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2693814Z   "sha256": "b1fb31c7d38de0cdc04e48f52d79f387a756e19edb5a5e05d1e649e58c387855"
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2694090Z }
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2694157Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2922322Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.2922758Z Running unit-integration: npm test
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.3724601Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.3725353Z > traceeval@1.0.0 test
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.3725703Z > vitest run
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.3725830Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5670498Z ^[[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5683312Z   - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5684375Z Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5886712Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5888796Z ^[[1m^[[30m^[[46m RUN ^[[49m^[[39m^[[22m ^[[36mv5.1.0 ^[[39m^[[90m/home/runner/work/TraceEval/TraceEval^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.5889352Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.8428153Z  ^[[32m✓^[[39m tests/live.test.ts ^[[2m(^[[22m^[[2m13 tests^[[22m^[[2m)^[[22m^[[32m 37^[[2mms^[[22m^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:50.9943835Z  ^[[32m✓^[[39m tests/evaluator.test.ts ^[[2m(^[[22m^[[2m25 tests^[[22m^[[2m)^[[22m^[[32m 62^[[2mms^[[22m^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1363423Z  ^[[32m✓^[[39m tests/auth.test.ts ^[[2m(^[[22m^[[2m3 tests^[[22m^[[2m)^[[22m^[[32m 30^[[2mms^[[22m^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1442779Z  ^[[32m✓^[[39m tests/authenticated.test.ts ^[[2m(^[[22m^[[2m5 tests^[[22m^[[2m)^[[22m^[[32m 38^[[2mms^[[22m^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1658512Z  ^[[32m✓^[[39m tests/integration.test.ts ^[[2m(^[[22m^[[2m15 tests^[[22m^[[2m)^[[22m^[[32m 96^[[2mms^[[22m^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1713995Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1715160Z ^[[2m Test Files ^[[22m ^[[1m^[[32m5 passed^[[39m^[[22m^[[90m (5)^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1715835Z ^[[2m      Tests ^[[22m ^[[1m^[[32m61 passed^[[39m^[[22m^[[90m (61)^[[39m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1716259Z ^[[2m   Start at ^[[22m 23:31:50
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1722638Z ^[[2m   Duration ^[[22m 579ms^[[2m (import 47%, transform 28%, tests 24%, worker 2%)^[[22m
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1753477Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1970735Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.1971457Z Running build: npm run build
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.2722928Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.2723500Z > traceeval@1.0.0 build
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.2723715Z > next build
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.2723793Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.5223126Z ▲ Next.js 16.4.5 (Turbopack)
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.5420511Z ✓ Running next.config.ts took 19ms
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.5421565Z ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.5532785Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:51.5765745Z   Creating an optimized production build ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:55.1184937Z ✓ Compiled successfully in 3.5s
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:55.1316813Z   Running TypeScript ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.1262114Z   Finished TypeScript in 1001ms ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.2047453Z   Collecting page data using 3 workers ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.7493451Z   Generating static pages using 3 workers (0/4) ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.8281269Z   Generating static pages using 3 workers (1/4) 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.8283355Z   Generating static pages using 3 workers (2/4) 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.8283746Z   Generating static pages using 3 workers (3/4) 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.8766665Z ✓ Generating static pages using 3 workers (4/4) in 130ms
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.8987681Z   Finalizing page optimization ...
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9084058Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9091426Z Route (app)
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9092190Z ┌ ƒ /
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9092892Z ├ ƒ /_not-found
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9093187Z ├ ƒ /api/evaluate
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9093406Z ├ ƒ /api/reviews
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9093610Z ├ ƒ /api/runs
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9113744Z ├ ƒ /compare
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9113986Z ├ ƒ /dataset
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114124Z ├ ƒ /evidence
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114295Z ├ ƒ /methodology
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114433Z ├ ƒ /runs
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114575Z ├ ƒ /runs/[id]
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114705Z └ ƒ /settings
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114793Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114800Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9114931Z ƒ  (Dynamic)  server-rendered on demand
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9115053Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9942654Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:56.9946512Z Running typecheck: npm run typecheck
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.0652177Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.0652587Z > traceeval@1.0.0 typecheck
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.0652806Z > tsc --noEmit
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.0652890Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.4537856Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.4538610Z Running fixture-evaluation: npm run evaluate
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.5244663Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.5245240Z > traceeval@1.0.0 evaluate
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.5245480Z > tsx scripts/evaluate.ts
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.5245582Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.8170776Z {"adapter":"fixture","total":500,"errors":0,"schema":500,"citationsEligible":500,"citations":500,"passed":500,"targetMatches":500,"runId":"6e9be280-769d-43b1-be9b-6228f93093e9","createdAt":"2026-11-05T23:31:57.773Z","datasetHash":"b1fb31c7d38de0cdc04e48f52d79f387a756e19edb5a5e05d1e649e58c387855","evaluatorVersion":"deterministic-v1","factualSupport":"Not human-reviewed. No model benchmark claim."}
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:57.8673234Z {"adapter":"perturbed","total":500,"errors":0,"schema":400,"citationsEligible":400,"citations":200,"passed":100,"targetMatches":300,"runId":"a27e7546-961c-417f-82ed-078d9a4c204c","createdAt":"2026-11-05T23:31:57.824Z","datasetHash":"b1fb31c7d38de0cdc04e48f52d79f387a756e19edb5a5e05d1e649e58c387855","evaluatorVersion":"deterministic-v1","factualSupport":"Not human-reviewed. No model benchmark claim."}
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.0441170Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.0442267Z Running browser: npm run test:e2e
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.1163247Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.1163795Z > traceeval@1.0.0 test:e2e
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.1164028Z > playwright test
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:58.1164118Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:59.0336199Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:59.0336912Z Running 5 tests using 1 worker
+fixture-and-browser	Run npm run verify	2026-11-05T23:31:59.0337220Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:01.5085961Z   ✓  1 [chromium] › tests/e2e/workspace.spec.ts:4:5 › full fixture journey: evaluate, inspect, review, export, reload, compare (2.0s)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:02.0703986Z   ✓  2 [chromium] › tests/e2e/workspace.spec.ts:38:5 › catalog search, filters, target inspection, and methodology disclosure (556ms)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:02.4433955Z   ✓  3 [chromium] › tests/e2e/workspace.spec.ts:46:5 › mobile navigation and dialog work without horizontal overflow (366ms)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:02.9783777Z   ✓  4 [chromium] › tests/e2e/workspace.spec.ts:55:5 › disabled live adapter and API errors are explicit (523ms)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:03.6553705Z   ✓  5 [chromium] › tests/e2e/workspace.spec.ts:64:5 › public 10-case demo needs no evaluation API and deletion clears reviews (667ms)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:03.7112529Z 
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:03.7114317Z   5 passed (5.2s)
+fixture-and-browser	Run npm run verify	2026-11-05T23:32:03.7455913Z Receipts preserved: artifacts/receipts/2026-11-05T23-31-50-024Z
+fixture-and-browser	Retain actual command and browser receipts	﻿2026-11-05T23:32:03.7606333Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7606572Z with:
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7606706Z   name: fixture-verification-42129996388
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7606953Z   path: artifacts/
+fixture-and-browser	Retain actual command and browser receipts	playwright-report/
+fixture-and-browser	Retain actual command and browser receipts	test-results/
+fixture-and-browser	Retain actual command and browser receipts	public/screenshots/
+fixture-and-browser	Retain actual command and browser receipts	
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607170Z   retention-days: 30
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607303Z   if-no-files-found: warn
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607442Z   compression-level: 6
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607567Z   overwrite: false
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607693Z   include-hidden-files: false
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607832Z env:
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7607945Z   NEXT_TELEMETRY_DISABLED: 1
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7608082Z   TRACEEVAL_STORAGE: local
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7608219Z   TRACEEVAL_LIVE_ENABLED: false
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.7608361Z ##[endgroup]
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8678107Z (node:3225) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8678906Z (Use `node --trace-deprecation ...` to show where the warning was created)
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8822954Z Multiple search paths detected. Calculating the least common ancestor of all paths
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8824621Z The least common ancestor is /home/runner/work/TraceEval/TraceEval. This will be the root directory of the artifact
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8825252Z With the provided path, there will be 44 files uploaded
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8828292Z Artifact name is valid!
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:03.8828594Z Root directory input is valid!
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.1575755Z Beginning upload of artifact content to blob storage
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.2345143Z (node:3225) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.6129288Z Uploaded bytes 1126500
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.6577106Z Finished uploading artifact content to blob storage!
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.6577788Z SHA256 digest of uploaded artifact zip is 9088a046ac40f18f01848e19bac63f8da02d030d281824f3dbcd9b855b360523
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:04.6579147Z Finalizing artifact upload
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:05.0774139Z Artifact fixture-verification-42129996388.zip successfully finalized. Artifact ID 13462189307
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:05.0775175Z Artifact fixture-verification-42129996388 has been successfully uploaded! Final size is 1126500 bytes. Artifact ID is 13462189307
+fixture-and-browser	Retain actual command and browser receipts	2026-11-05T23:32:05.0779785Z Artifact download URL: https://github.com/pranav-pokkula/TraceEval/actions/runs/42129996388/artifacts/13462189307
+fixture-and-browser	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	﻿2026-11-05T23:32:05.0961398Z Post job cleanup.
+fixture-and-browser	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:05.1787170Z (node:3237) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+fixture-and-browser	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:05.1788021Z (Use `node --trace-deprecation ...` to show where the warning was created)
+fixture-and-browser	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:05.1922390Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/TraceEval/TraceEval --files-from manifest.txt --use-compress-program zstdmt
+fixture-and-browser	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:05.5177576Z Failed to save: Unable to reserve cache with key node-cache-Linux-x64-npm-990c97277af790548df0178cfd484bffc51882022f58a931d3c2c081526033aa, another job may be creating this cache.
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	﻿2026-11-05T23:32:05.5431419Z Post job cleanup.
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.5996558Z [command]/usr/bin/git version
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6030588Z git version 2.56.0
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6056308Z Temporarily overriding HOME='/home/runner/work/_temp/d15770a9-7a9c-40e4-a173-6bf83d2ba4d8' before making global git config changes
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6057113Z Adding repository directory to the temporary git global config as a safe directory
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6061778Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/TraceEval/TraceEval
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6096053Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6126507Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6377397Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+fixture-and-browser	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:05.6412314Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+fixture-and-browser	Complete job	﻿2026-11-05T23:32:05.6779503Z Cleaning up orphan processes
+fixture-and-browser	Complete job	2026-11-05T23:32:05.7068879Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+postgres-rls	Set up job	﻿2026-11-05T23:31:26.8627029Z Current runner version: '2.338.2'
+postgres-rls	Set up job	2026-11-05T23:31:26.8648911Z ##[group]Runner Image Provisioner
+postgres-rls	Set up job	2026-11-05T23:31:26.8649867Z Hosted Compute Agent
+postgres-rls	Set up job	2026-11-05T23:31:26.8650353Z Version: 20261028.624
+postgres-rls	Set up job	2026-11-05T23:31:26.8650919Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+postgres-rls	Set up job	2026-11-05T23:31:26.8651516Z Build Date: 2026-10-28T21:51:42Z
+postgres-rls	Set up job	2026-11-05T23:31:26.8652095Z Worker ID: {79eb45ac-836b-4178-b03b-c6cc13f8d019}
+postgres-rls	Set up job	2026-11-05T23:31:26.8652774Z Region: westus3
+postgres-rls	Set up job	2026-11-05T23:31:26.8653239Z Cloud: Azure
+postgres-rls	Set up job	2026-11-05T23:31:26.8653825Z ##[endgroup]
+postgres-rls	Set up job	2026-11-05T23:31:26.8654950Z ##[group]Operating System
+postgres-rls	Set up job	2026-11-05T23:31:26.8655467Z Ubuntu
+postgres-rls	Set up job	2026-11-05T23:31:26.8656324Z 26.04.1
+postgres-rls	Set up job	2026-11-05T23:31:26.8656774Z LTS
+postgres-rls	Set up job	2026-11-05T23:31:26.8657230Z ##[endgroup]
+postgres-rls	Set up job	2026-11-05T23:31:26.8657703Z ##[group]Runner Image
+postgres-rls	Set up job	2026-11-05T23:31:26.8658247Z Image: ubuntu-26.04
+postgres-rls	Set up job	2026-11-05T23:31:26.8658758Z Version: 20261101.186.1
+postgres-rls	Set up job	2026-11-05T23:31:26.8659761Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261101.186/images/ubuntu/Ubuntu2604-Readme.md
+postgres-rls	Set up job	2026-11-05T23:31:26.8661237Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261101.186
+postgres-rls	Set up job	2026-11-05T23:31:26.8662057Z ##[endgroup]
+postgres-rls	Set up job	2026-11-05T23:31:26.8663015Z ##[group]GITHUB_TOKEN Permissions
+postgres-rls	Set up job	2026-11-05T23:31:26.8664765Z Contents: read
+postgres-rls	Set up job	2026-11-05T23:31:26.8665336Z Metadata: read
+postgres-rls	Set up job	2026-11-05T23:31:26.8665801Z ##[endgroup]
+postgres-rls	Set up job	2026-11-05T23:31:26.8667617Z Secret source: Actions
+postgres-rls	Set up job	2026-11-05T23:31:26.8668409Z Cache mode: write
+postgres-rls	Set up job	2026-11-05T23:31:26.8669291Z Prepare workflow directory
+postgres-rls	Set up job	2026-11-05T23:31:26.9011548Z Prepare all required actions
+postgres-rls	Set up job	2026-11-05T23:31:26.9052332Z Getting action download info
+postgres-rls	Set up job	2026-11-05T23:31:27.2022499Z Download action repository 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+postgres-rls	Set up job	2026-11-05T23:31:27.3173050Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+postgres-rls	Set up job	2026-11-05T23:31:27.4259005Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+postgres-rls	Set up job	2026-11-05T23:31:27.7075758Z Complete job name: postgres-rls
+postgres-rls	Initialize containers	﻿2026-11-05T23:31:27.7583396Z ##[group]Checking docker version
+postgres-rls	Initialize containers	2026-11-05T23:31:27.7593891Z ##[command]/usr/bin/docker version --format '{{.Server.APIVersion}}'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0027343Z '1.54'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0039721Z Docker daemon API version: '1.54'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0040370Z ##[command]/usr/bin/docker version --format '{{.Client.APIVersion}}'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0198434Z '1.54'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0211151Z Docker client API version: '1.54'
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0215650Z ##[endgroup]
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0217959Z ##[group]Clean up resources from previous jobs
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0222779Z ##[command]/usr/bin/docker ps --all --quiet --no-trunc --filter "label=304781"
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0365715Z ##[command]/usr/bin/docker network prune --force --filter "label=304781"
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0502990Z ##[endgroup]
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0503490Z ##[group]Create local container network
+postgres-rls	Initialize containers	2026-11-05T23:31:28.0511845Z ##[command]/usr/bin/docker network create --label 304781 github_network_935215b35ec64836b0e7337e769da801
+postgres-rls	Initialize containers	2026-11-05T23:31:28.1005700Z 44a19698b82b132b6788e92ef6a3d72928cdd94ac540270fe8cbf30fe39f0ff5
+postgres-rls	Initialize containers	2026-11-05T23:31:28.1026760Z ##[endgroup]
+postgres-rls	Initialize containers	2026-11-05T23:31:28.1047743Z ##[group]Starting postgres service container
+postgres-rls	Initialize containers	2026-11-05T23:31:28.1064966Z ##[command]/usr/bin/docker pull postgres:17
+postgres-rls	Initialize containers	2026-11-05T23:31:28.8721553Z 17: Pulling from library/postgres
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1156490Z 275aa943d416: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1157806Z ceeafc939069: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1158644Z 37fb86c2a767: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1161570Z 56c5b61c6d2b: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1163254Z 5760334e16b5: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1164296Z c2f4b34f5119: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1165191Z d35c08e535dc: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1166006Z c97a680633a2: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1168278Z 4f0fb6572de8: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1168908Z d717e9509665: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1169683Z 0eab0a63b06d: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1170283Z 046371a447cc: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1171057Z f0f18338e0da: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.1172087Z 9de238338a9a: Pulling fs layer
+postgres-rls	Initialize containers	2026-11-05T23:31:29.2226649Z 275aa943d416: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3297875Z d35c08e535dc: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3308626Z f0f18338e0da: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3328052Z 56c5b61c6d2b: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3328882Z 5760334e16b5: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3341845Z 0eab0a63b06d: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.3344285Z ceeafc939069: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.4233389Z 4f0fb6572de8: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.4234840Z d717e9509665: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.4241831Z c97a680633a2: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.5217061Z c2f4b34f5119: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.6219348Z 37fb86c2a767: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.6225747Z 046371a447cc: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.7226460Z b40edbb0adb6: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:29.7246063Z b9ed2b0f585a: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.3295706Z 37fb86c2a767: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.4220557Z 9de238338a9a: Download complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.4278484Z 56c5b61c6d2b: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.5296085Z c2f4b34f5119: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.7303650Z d717e9509665: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.9244811Z f0f18338e0da: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.9265016Z 0eab0a63b06d: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.9299430Z c97a680633a2: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:30.9308716Z 046371a447cc: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4065613Z 275aa943d416: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4075833Z d35c08e535dc: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4098609Z 5760334e16b5: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4103498Z ceeafc939069: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4118727Z 4f0fb6572de8: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4129032Z 9de238338a9a: Pull complete
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4129924Z Digest: sha256:748a18a54d3842d43bc156f0840d78029b8d349e0feca98c12b9c4ce3404a6b3
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4130883Z Status: Downloaded newer image for postgres:17
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4147794Z docker.io/library/postgres:17
+postgres-rls	Initialize containers	2026-11-05T23:31:32.4219901Z ##[command]/usr/bin/docker create --name 0135f3a0716f4d558214f3858887002a_postgres17_2e7c00 --label 304781 --network github_network_935215b35ec64836b0e7337e769da801 --network-alias postgres -p 5432:5432 --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5 -e "POSTGRES_PASSWORD=traceeval_disposable_ci" -e "POSTGRES_DB=traceeval_test" -e GITHUB_ACTIONS=true -e CI=true postgres:17
+postgres-rls	Initialize containers	2026-11-05T23:31:35.5389902Z 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:35.5413556Z ##[command]/usr/bin/docker start 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7249319Z 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7271979Z ##[command]/usr/bin/docker ps --all --filter id=07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7524086Z 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a Up Less than a second (health: starting)
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7566046Z ##[command]/usr/bin/docker port 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7699374Z 5432/tcp -> 0.0.0.0:5432
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7700116Z 5432/tcp -> [::]:5432
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7750042Z ##[endgroup]
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7757572Z ##[group]Waiting for all services to be ready
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7768887Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7903117Z starting
+postgres-rls	Initialize containers	2026-11-05T23:31:35.7931627Z postgres service is starting, waiting 2 seconds before checking again.
+postgres-rls	Initialize containers	2026-11-05T23:31:37.7935113Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:37.8057891Z starting
+postgres-rls	Initialize containers	2026-11-05T23:31:37.8071962Z postgres service is starting, waiting 4 seconds before checking again.
+postgres-rls	Initialize containers	2026-11-05T23:31:41.9001300Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:41.9131113Z starting
+postgres-rls	Initialize containers	2026-11-05T23:31:41.9146606Z postgres service is starting, waiting 6 seconds before checking again.
+postgres-rls	Initialize containers	2026-11-05T23:31:48.7591343Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Initialize containers	2026-11-05T23:31:48.7715549Z healthy
+postgres-rls	Initialize containers	2026-11-05T23:31:48.7733927Z postgres service is healthy.
+postgres-rls	Initialize containers	2026-11-05T23:31:48.7734547Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	﻿2026-11-05T23:31:48.8035471Z ##[group]Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8035977Z with:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8036151Z   persist-credentials: false
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8036375Z   repository: pranav-pokkula/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8038483Z   token: ***
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8038654Z   ssh-strict: true
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8038822Z   ssh-user: git
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8038984Z   clean: true
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8039299Z   sparse-checkout-cone-mode: true
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8039517Z   fetch-depth: 1
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8039686Z   fetch-tags: false
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8039858Z   show-progress: true
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8040026Z   lfs: false
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8040186Z   submodules: false
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8040358Z   set-safe-directory: true
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:48.8040689Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0082316Z Syncing repository: pranav-pokkula/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0083713Z ##[group]Getting Git version info
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0084232Z Working directory is '/home/runner/work/TraceEval/TraceEval'
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0085016Z [command]/usr/bin/git version
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0087185Z git version 2.56.0
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0102492Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0114476Z Temporarily overriding HOME='/home/runner/work/_temp/2aa3afe7-aa7e-4ee0-811e-e52ba4c6d500' before making global git config changes
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0115598Z Adding repository directory to the temporary git global config as a safe directory
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0120082Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/TraceEval/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0183549Z Deleting the contents of '/home/runner/work/TraceEval/TraceEval'
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0190185Z ##[group]Initializing the repository
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0190663Z [command]/usr/bin/git init /home/runner/work/TraceEval/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0271227Z hint: Using 'master' as the name for the initial branch. This default branch name
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0272004Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0272629Z hint: to use in all of your new repositories, which will suppress this warning,
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0273098Z hint: call:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0273304Z hint:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0273610Z hint: 	git config --global init.defaultBranch <name>
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0274004Z hint:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0274244Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0274625Z hint: 'development'. The just-created branch can be renamed via this command:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0274997Z hint:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0275210Z hint: 	git branch -m <name>
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0275400Z hint:
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0275660Z hint: Disable this message with "git config set advice.defaultBranchName false"
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0279335Z Initialized empty Git repository in /home/runner/work/TraceEval/TraceEval/.git/
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0291794Z [command]/usr/bin/git remote add origin https://github.com/pranav-pokkula/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0369855Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0370412Z ##[group]Disabling automatic garbage collection
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0374484Z [command]/usr/bin/git config --local gc.auto 0
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0418989Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0419640Z ##[group]Setting up auth
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0419982Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0456651Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0850895Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.0879708Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.1111702Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.1147311Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.1147769Z ##[group]Fetching the repository
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.1156455Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e59d3c6fda8e81eeca372eb0dd0894068948b16d:refs/remotes/origin/main
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8218605Z From https://github.com/pranav-pokkula/TraceEval
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8219558Z  * [new ref]         e59d3c6fda8e81eeca372eb0dd0894068948b16d -> origin/main
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8222816Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8223355Z ##[group]Determining the checkout info
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8225469Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.8231380Z [command]/usr/bin/git sparse-checkout disable
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9069485Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9100931Z ##[group]Checking out the ref
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9105140Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9261362Z Switched to a new branch 'main'
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9265234Z branch 'main' set up to track 'origin/main'.
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9270642Z ##[endgroup]
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9320036Z [command]/usr/bin/git log -1 --format=%H
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9346553Z e59d3c6fda8e81eeca372eb0dd0894068948b16d
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9356681Z ##[group]Removing auth
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9359395Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9385130Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9623464Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9645177Z http.https://github.com/.extraheader
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9653107Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9690488Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+postgres-rls	Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:31:49.9917373Z ##[endgroup]
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	﻿2026-11-05T23:31:50.0138216Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0138534Z with:
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0138697Z   node-version: 22
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0138872Z   cache: npm
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0139037Z   always-auth: false
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0139450Z   check-latest: false
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0141398Z   token: ***
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.0141566Z ##[endgroup]
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.1349801Z Found in cache @ /opt/hostedtoolcache/node/22.23.4/x64
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.1352899Z (node:2622) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.1354067Z (Use `node --trace-deprecation ...` to show where the warning was created)
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.1355328Z ##[group]Environment details
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.4788452Z node: v22.23.4
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.4788827Z npm: 10.9.9
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.4789243Z yarn: 1.22.22
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.4790019Z ##[endgroup]
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.4805560Z [command]/opt/hostedtoolcache/node/22.23.4/x64/bin/npm config get cache
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.5693035Z /home/runner/.npm
+postgres-rls	Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:31:50.8094098Z npm cache is not found
+postgres-rls	Run npm ci	﻿2026-11-05T23:31:50.8236325Z ##[group]Run npm ci
+postgres-rls	Run npm ci	2026-11-05T23:31:50.8236574Z ^[[36;1mnpm ci^[[0m
+postgres-rls	Run npm ci	2026-11-05T23:31:50.8292939Z shell: /usr/bin/bash -e {0}
+postgres-rls	Run npm ci	2026-11-05T23:31:50.8293167Z ##[endgroup]
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5405400Z 
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5412406Z added 117 packages, and audited 124 packages in 8s
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5412817Z 
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5413056Z 26 packages are looking for funding
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5413467Z   run `npm fund` for details
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5414205Z 
+postgres-rls	Run npm ci	2026-11-05T23:31:58.5414352Z found 0 vulnerabilities
+postgres-rls	Run npm run test:rls	﻿2026-11-05T23:31:58.5958381Z ##[group]Run npm run test:rls
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.5958643Z ^[[36;1mnpm run test:rls^[[0m
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6004752Z shell: /usr/bin/bash -e {0}
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6004971Z env:
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6005475Z   TRACEEVAL_TEST_DATABASE_URL: ***localhost:5432/traceeval_test
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6005765Z   TRACEEVAL_TEST_BOOTSTRAP: true
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6005966Z ##[endgroup]
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6866393Z 
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6867254Z > traceeval@1.0.0 test:rls
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6867840Z > node scripts/test-rls.mjs
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.6868133Z 
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7740551Z PASS: owner can insert and read a run and human review.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7760178Z PASS: another user cannot read, delete, or edit the owner records.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7785413Z PASS: forged owner insert and cross-owner review reference are rejected.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7802967Z PASS: review case membership is enforced in PostgreSQL.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7830973Z PASS: live minute quota is enforced and quota rows are inaccessible.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7852471Z PASS: anonymous access to runs, reviews, and live quota is denied.
+postgres-rls	Run npm run test:rls	2026-11-05T23:31:58.7868167Z PASS: all RLS checks completed; test data rolled back.
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	﻿2026-11-05T23:31:58.8121521Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8121848Z with:
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122025Z   name: postgres-rls-42129996388
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122240Z   path: artifacts/receipts/
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122427Z   retention-days: 30
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122606Z   if-no-files-found: warn
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122791Z   compression-level: 6
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8122965Z   overwrite: false
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8123136Z   include-hidden-files: false
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.8123328Z ##[endgroup]
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.9497026Z (node:2738) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.9497755Z (Use `node --trace-deprecation ...` to show where the warning was created)
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.9580583Z With the provided path, there will be 26 files uploaded
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.9585313Z Artifact name is valid!
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:58.9585953Z Root directory input is valid!
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:59.6764225Z Beginning upload of artifact content to blob storage
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:59.7101411Z (node:2738) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:31:59.9849998Z Uploaded bytes 14135
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.0467462Z Finished uploading artifact content to blob storage!
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.0468368Z SHA256 digest of uploaded artifact zip is 541e55b48b1cc2fa0dddda2889f4773c548c99deed88c02edc39199c45233a51
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.0469275Z Finalizing artifact upload
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.5556322Z Artifact postgres-rls-42129996388.zip successfully finalized. Artifact ID 13462144351
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.5558006Z Artifact postgres-rls-42129996388 has been successfully uploaded! Final size is 14135 bytes. Artifact ID is 13462144351
+postgres-rls	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-11-05T23:32:00.5562495Z Artifact download URL: https://github.com/pranav-pokkula/TraceEval/actions/runs/42129996388/artifacts/13462144351
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	﻿2026-11-05T23:32:00.5727988Z Post job cleanup.
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:00.6761959Z (node:2750) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:00.6762989Z (Use `node --trace-deprecation ...` to show where the warning was created)
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:00.6942243Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/TraceEval/TraceEval --files-from manifest.txt --use-compress-program zstdmt
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:01.1599686Z (node:2750) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:02.1509836Z Sent 0 of 194774054 (0.0%), 0.0 MBs/sec
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:02.9601213Z Sent 194774054 of 194774054 (100.0%), 102.7 MBs/sec
+postgres-rls	Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020	2026-11-05T23:32:03.2190975Z Cache saved with the key: node-cache-Linux-x64-npm-990c97277af790548df0178cfd484bffc51882022f58a931d3c2c081526033aa
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	﻿2026-11-05T23:32:03.2592395Z Post job cleanup.
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.3303471Z [command]/usr/bin/git version
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.3371631Z git version 2.56.0
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.3403611Z Temporarily overriding HOME='/home/runner/work/_temp/241359d8-623f-4f08-b466-b7d6063b802e' before making global git config changes
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.3404859Z Adding repository directory to the temporary git global config as a safe directory
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.3408014Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/TraceEval/TraceEval
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.4334453Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.4370374Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.4609281Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+postgres-rls	Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683	2026-11-05T23:32:03.4638574Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+postgres-rls	Stop containers	﻿2026-11-05T23:32:03.5527962Z Print service container logs: 0135f3a0716f4d558214f3858887002a_postgres17_2e7c00
+postgres-rls	Stop containers	2026-11-05T23:32:03.5531804Z ##[command]/usr/bin/docker logs --details 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Stop containers	2026-11-05T23:32:03.5663589Z  initdb: warning: enabling "trust" authentication for local connections
+postgres-rls	Stop containers	2026-11-05T23:32:03.5664269Z  The files belonging to this database system will be owned by user "postgres".
+postgres-rls	Stop containers	2026-11-05T23:32:03.5665252Z  initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+postgres-rls	Stop containers	2026-11-05T23:32:03.5666398Z  2026-11-05 23:31:37.019 UTC [1] LOG:  starting PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+postgres-rls	Stop containers	2026-11-05T23:32:03.5667297Z  2026-11-05 23:31:37.020 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-rls	Stop containers	2026-11-05T23:32:03.5667875Z  2026-11-05 23:31:37.020 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-rls	Stop containers	2026-11-05T23:32:03.5668583Z  2026-11-05 23:31:37.020 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-rls	Stop containers	2026-11-05T23:32:03.5669418Z  2026-11-05 23:31:37.023 UTC [64] LOG:  database system was shut down at 2026-11-05 23:31:36 UTC
+postgres-rls	Stop containers	2026-11-05T23:32:03.5670047Z  2026-11-05 23:31:37.026 UTC [1] LOG:  database system is ready to accept connections
+postgres-rls	Stop containers	2026-11-05T23:32:03.5670594Z  2026-11-05 23:31:45.778 UTC [75] FATAL:  role "root" does not exist
+postgres-rls	Stop containers	2026-11-05T23:32:03.5671365Z  2026-11-05 23:31:55.853 UTC [83] FATAL:  role "root" does not exist
+postgres-rls	Stop containers	2026-11-05T23:32:03.5671956Z  2026-11-05 23:31:58.776 UTC [84] ERROR:  new row violates row-level security policy for table "runs"
+postgres-rls	Stop containers	2026-11-05T23:32:03.5672703Z  2026-11-05 23:31:58.776 UTC [84] STATEMENT:  insert into public.runs(id,owner_id,payload) values ($1,$2,$3)
+postgres-rls	Stop containers	2026-11-05T23:32:03.5673382Z  2026-11-05 23:31:58.777 UTC [84] ERROR:  Case not present in owned evaluated run
+postgres-rls	Stop containers	2026-11-05T23:32:03.5674018Z  2026-11-05 23:31:58.777 UTC [84] CONTEXT:  PL/pgSQL function public.validate_review_case() line 7 at RAISE
+postgres-rls	Stop containers	2026-11-05T23:32:03.5675130Z  2026-11-05 23:31:58.777 UTC [84] STATEMENT:  insert into public.reviews(owner_id,run_id,case_id,score,rationale) values ($1,$2,'case-0002',2,'Forged cross-owner association.')
+postgres-rls	Stop containers	2026-11-05T23:32:03.5676092Z  2026-11-05 23:31:58.779 UTC [84] ERROR:  Case not present in owned evaluated run
+postgres-rls	Stop containers	2026-11-05T23:32:03.5676796Z  2026-11-05 23:31:58.779 UTC [84] CONTEXT:  PL/pgSQL function public.validate_review_case() line 7 at RAISE
+postgres-rls	Stop containers	2026-11-05T23:32:03.5677849Z  2026-11-05 23:31:58.779 UTC [84] STATEMENT:  insert into public.reviews(owner_id,run_id,case_id,score,rationale) values ($1,$2,'case-9999',2,'Case not in the evaluated run.')
+postgres-rls	Stop containers	2026-11-05T23:32:03.5678773Z  2026-11-05 23:31:58.782 UTC [84] ERROR:  permission denied for table live_requests
+postgres-rls	Stop containers	2026-11-05T23:32:03.5679474Z  2026-11-05 23:31:58.782 UTC [84] STATEMENT:  select * from public.live_requests
+postgres-rls	Stop containers	2026-11-05T23:32:03.5679978Z  2026-11-05 23:31:58.783 UTC [84] ERROR:  permission denied for table runs
+postgres-rls	Stop containers	2026-11-05T23:32:03.5680627Z  2026-11-05 23:31:58.783 UTC [84] STATEMENT:  select * from public.runs
+postgres-rls	Stop containers	2026-11-05T23:32:03.5681112Z  2026-11-05 23:31:58.784 UTC [84] ERROR:  permission denied for table reviews
+postgres-rls	Stop containers	2026-11-05T23:32:03.5681550Z  2026-11-05 23:31:58.784 UTC [84] STATEMENT:  select * from public.reviews
+postgres-rls	Stop containers	2026-11-05T23:32:03.5681947Z  2026-11-05 23:31:58.784 UTC [84] ERROR:  permission denied for function reserve_live_budget
+postgres-rls	Stop containers	2026-11-05T23:32:03.5682370Z  2026-11-05 23:31:58.784 UTC [84] STATEMENT:  select public.reserve_live_budget(1)
+postgres-rls	Stop containers	2026-11-05T23:32:03.5682686Z  This user must also own the server process.
+postgres-rls	Stop containers	2026-11-05T23:32:03.5682922Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5683159Z  The database cluster will be initialized with locale "en_US.utf8".
+postgres-rls	Stop containers	2026-11-05T23:32:03.5683512Z  The default database encoding has accordingly been set to "UTF8".
+postgres-rls	Stop containers	2026-11-05T23:32:03.5683848Z  The default text search configuration will be set to "english".
+postgres-rls	Stop containers	2026-11-05T23:32:03.5684117Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5684283Z  Data page checksums are disabled.
+postgres-rls	Stop containers	2026-11-05T23:32:03.5684702Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5684979Z  fixing permissions on existing directory /var/lib/postgresql/data ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5685331Z  creating subdirectories ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5685594Z  selecting dynamic shared memory implementation ... posix
+postgres-rls	Stop containers	2026-11-05T23:32:03.5685887Z  selecting default "max_connections" ... 100
+postgres-rls	Stop containers	2026-11-05T23:32:03.5686137Z  selecting default "shared_buffers" ... 128MB
+postgres-rls	Stop containers	2026-11-05T23:32:03.5686387Z  selecting default time zone ... Etc/UTC
+postgres-rls	Stop containers	2026-11-05T23:32:03.5686620Z  creating configuration files ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5686848Z  running bootstrap script ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5687098Z  performing post-bootstrap initialization ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5687356Z  syncing data to disk ... ok
+postgres-rls	Stop containers	2026-11-05T23:32:03.5687556Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5687703Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5687907Z  Success. You can now start the database server using:
+postgres-rls	Stop containers	2026-11-05T23:32:03.5688155Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5688362Z      pg_ctl -D /var/lib/postgresql/data -l logfile start
+postgres-rls	Stop containers	2026-11-05T23:32:03.5688616Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5689269Z  waiting for server to start....2026-11-05 23:31:36.579 UTC [48] LOG:  starting PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+postgres-rls	Stop containers	2026-11-05T23:32:03.5689967Z  2026-11-05 23:31:36.580 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-rls	Stop containers	2026-11-05T23:32:03.5690540Z  2026-11-05 23:31:36.582 UTC [51] LOG:  database system was shut down at 2026-11-05 23:31:36 UTC
+postgres-rls	Stop containers	2026-11-05T23:32:03.5690951Z  2026-11-05 23:31:36.585 UTC [48] LOG:  database system is ready to accept connections
+postgres-rls	Stop containers	2026-11-05T23:32:03.5691244Z   done
+postgres-rls	Stop containers	2026-11-05T23:32:03.5691413Z  server started
+postgres-rls	Stop containers	2026-11-05T23:32:03.5691589Z  CREATE DATABASE
+postgres-rls	Stop containers	2026-11-05T23:32:03.5691764Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5691986Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5692260Z  /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+postgres-rls	Stop containers	2026-11-05T23:32:03.5692568Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5692857Z  waiting for server to shut down...2026-11-05 23:31:36.801 UTC [48] LOG:  received fast shutdown request
+postgres-rls	Stop containers	2026-11-05T23:32:03.5693267Z  .2026-11-05 23:31:36.802 UTC [48] LOG:  aborting any active transactions
+postgres-rls	Stop containers	2026-11-05T23:32:03.5693714Z  2026-11-05 23:31:36.803 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+postgres-rls	Stop containers	2026-11-05T23:32:03.5694129Z  2026-11-05 23:31:36.805 UTC [49] LOG:  shutting down
+postgres-rls	Stop containers	2026-11-05T23:32:03.5694445Z  2026-11-05 23:31:36.805 UTC [49] LOG:  checkpoint starting: shutdown immediate
+postgres-rls	Stop containers	2026-11-05T23:32:03.5695263Z  2026-11-05 23:31:36.908 UTC [49] LOG:  checkpoint complete: wrote 925 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.085 s, sync=0.018 s, total=0.104 s; sync files=301, longest=0.012 s, average=0.001 s; distance=4256 kB, estimate=4256 kB; lsn=0/19179B0, redo lsn=0/19179B0
+postgres-rls	Stop containers	2026-11-05T23:32:03.5696057Z  2026-11-05 23:31:36.915 UTC [48] LOG:  database system is shut down
+postgres-rls	Stop containers	2026-11-05T23:32:03.5696319Z   done
+postgres-rls	Stop containers	2026-11-05T23:32:03.5696491Z  server stopped
+postgres-rls	Stop containers	2026-11-05T23:32:03.5696667Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5696871Z  PostgreSQL init process complete; ready for start up.
+postgres-rls	Stop containers	2026-11-05T23:32:03.5697122Z  
+postgres-rls	Stop containers	2026-11-05T23:32:03.5701599Z Stop and remove container: 0135f3a0716f4d558214f3858887002a_postgres17_2e7c00
+postgres-rls	Stop containers	2026-11-05T23:32:03.5705709Z ##[command]/usr/bin/docker rm --force 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Stop containers	2026-11-05T23:32:06.6285993Z 07299dd445f05d6b09e6b129bd03afbb97bd307b1422809931d8967c01ede67a
+postgres-rls	Stop containers	2026-11-05T23:32:06.6316488Z Remove container network: github_network_935215b35ec64836b0e7337e769da801
+postgres-rls	Stop containers	2026-11-05T23:32:06.6320135Z ##[command]/usr/bin/docker network rm github_network_935215b35ec64836b0e7337e769da801
+postgres-rls	Stop containers	2026-11-05T23:32:06.6830686Z github_network_935215b35ec64836b0e7337e769da801
+postgres-rls	Complete job	﻿2026-11-05T23:32:06.6897779Z Cleaning up orphan processes
+postgres-rls	Complete job	2026-11-05T23:32:06.7251272Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

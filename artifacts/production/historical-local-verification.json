@@ -1,0 +1,26 @@
+{
+  "verifiedOn": "2026-11-05",
+  "kind": "local verification, not hosted CI",
+  "fixtureSuite": {
+    "receipt": "artifacts/receipts/2026-11-05T17-58-15-155Z/summary.json",
+    "exitCode": 0,
+    "vitestTestsPassed": 45,
+    "chromiumTestsPassed": 4,
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "generatedArtifactCheck": "passed",
+    "syntheticTargetCases": 500,
+    "fixtureExecutions": 2,
+    "independentRealWorldObservations": 0
+  },
+  "database": {
+    "receipt": "artifacts/receipts/rls-2026-11-05T17-59-10-945Z.log",
+    "exitCode": 0,
+    "image": "postgres:17",
+    "imageDigest": "sha256:748a18a54d3842d43bc156f0840d78029b8d349e0feca98c12b9c4ce3404a6b3",
+    "authContract": "Minimal Supabase auth schema and auth.uid helper in disposable PostgreSQL",
+    "hostedSupabaseVerified": false
+  },
+  "notExecuted": ["Hosted Supabase integration", "Live model provider", "Vercel deployment", "GitHub Actions", "Firefox/WebKit tests", "Concurrency/load benchmark"],
+  "screenshots": ["public/screenshots/dashboard-desktop.png", "public/screenshots/dashboard-mobile.png", "public/screenshots/trace-inspector-desktop.png", "public/screenshots/comparison-desktop.png", "public/screenshots/methodology-desktop.png"]
+}

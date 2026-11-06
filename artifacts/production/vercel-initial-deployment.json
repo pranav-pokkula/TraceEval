@@ -1,0 +1,41 @@
+{
+  "result": {
+    "deployment": {
+      "id": "dpl_6oFiQTWY92R9P3nvjaAunKZQTJMH",
+      "name": "traceeval",
+      "url": "traceeval-flf4z86ny-pranav-pokkulas-projects.vercel.app",
+      "type": "LAMBDAS",
+      "state": "READY",
+      "createdAt": 1793921626255,
+      "creator": {
+        "uid": "Vcq5wbqWp4ur5gcLaZh6TPof",
+        "username": "pokkulapranav-3867"
+      },
+      "project": {
+        "id": "prj_ZcAfvvGVo2LYNlMsd7RvgYWcHKhU",
+        "name": "traceeval",
+        "framework": "nextjs"
+      },
+      "meta": {
+        "githubCommitRef": "main",
+        "githubCommitSha": "e59d3c6fda8e81eeca372eb0dd0894068948b16d",
+        "githubCommitMessage": "Implement TraceEval public demo and authenticated evaluation workspace",
+        "githubRepo": "TraceEval",
+        "githubOrg": "pranav-pokkula"
+      },
+      "alias": [
+        "traceeval.vercel.app",
+        "traceeval-pranav-pokkulas-projects.vercel.app",
+        "traceeval-git-main-pranav-pokkulas-projects.vercel.app"
+      ],
+      "target": "production",
+      "regions": [
+        "iad1"
+      ],
+      "buildingAt": 1793921627564,
+      "ready": 1793921656746,
+      "readyState": "READY",
+      "aliasError": null
+    }
+  }
+}

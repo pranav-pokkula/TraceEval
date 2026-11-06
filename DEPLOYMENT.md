@@ -67,6 +67,14 @@ The script prints only assertion outcomes and safe error codes; it never prints 
 
 ## Rollback and troubleshooting
 
+To repeat public production browser verification after deployment:
+
+```sh
+BASE_URL=https://traceeval.vercel.app npm run test:e2e
+```
+
+This uses the actual remote application, captures screenshots under `artifacts/production/screenshots`, and disables Playwright tracing for remote runs. It never enters private credentials or invokes a paid model. Hosted account verification remains a separate blocked gate until the dedicated Supabase project exists.
+
 - Roll back the application deployment through Vercel if the new version fails. This first migration is additive; keep it in place when reverting the app. Destructive down migrations are intentionally omitted.
 - `401`: sign in again; check Supabase project configuration.
 - `503` on a live run: verify server configuration and migration privately. Do not print environment values.

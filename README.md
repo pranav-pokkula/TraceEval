@@ -2,13 +2,17 @@
 
 An inspectable evaluation workbench for structured answers and citations, built with Next.js App Router, TypeScript, Tailwind CSS, Zod, AJV, and optional Supabase/Postgres persistence.
 
-Source: [pranav-pokkula/TraceEval](https://github.com/pranav-pokkula/TraceEval). Actual deployment/CI status is recorded in [Production verification](docs/PRODUCTION_VERIFICATION.md). The TraceEval Supabase organization exists, but its project is blocked by the account's two-active-free-project limit. Hosted account persistence is not claimed operational. [Architecture](docs/ARCHITECTURE.md) explains the boundaries.
+**[Open the live demo](https://traceeval.vercel.app)** · [Source](https://github.com/pranav-pokkula/TraceEval) · [Verified CI run](https://github.com/pranav-pokkula/TraceEval/actions/runs/42129996388) · [Production verification](docs/PRODUCTION_VERIFICATION.md)
+
+**Release: deployed with limitations.** The public demo is live and browser-tested. The dedicated TraceEval Supabase organization exists, but its project is blocked by the account's two-active-free-project limit. Hosted account persistence is not operational. [Architecture](docs/ARCHITECTURE.md) explains the boundaries.
+
+![TraceEval production dashboard](artifacts/production/screenshots/dashboard-desktop.png)
 
 **All bundled documents are fictional. The 500 dataset cases are synthetic targets, not a real-world benchmark.** Deterministic citation checks do not establish factual support. Human judgments are stored and labeled separately.
 
 ## Quick start — no credentials
 
-Requires Node.js 22+ and npm. Dependencies are pinned in `package-lock.json`.
+Requires Node.js 22.x and npm. Dependencies are pinned in `package-lock.json`.
 
 ```sh
 npm ci
@@ -79,7 +83,7 @@ The server configures account availability. When configured, signed-in users can
 
 ## Evidence and verification
 
-See [EVALUATION.md](EVALUATION.md) for actual executed counts, receipts, formulas, and limits; [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for release gates. GitHub Actions configuration is included, but a workflow file is not evidence that CI has run. Hosted Supabase and live-provider integration need separate verification.
+Actual verification: 61 Vitest tests, five local Chromium workflows, five production browser workflows, build/typecheck/reproducibility, and real PostgreSQL isolation checks passed. GitHub Actions actually ran successfully; its logs and metadata are preserved. See [EVALUATION.md](EVALUATION.md) for counts and scoring limits, [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for gates, and [Production verification](docs/PRODUCTION_VERIFICATION.md) for scope. Hosted Supabase and live-provider integration remain unverified.
 
 Screenshots are captured from real browser runs, not mockups:
 
